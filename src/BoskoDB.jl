@@ -1,5 +1,10 @@
+__precompile__(true)
 module BoskoDB
 
-# package code goes here
+using JuliaDB
+
+export names, nrow, ncol
+
+include("dtable.jl")
 
 end # module
